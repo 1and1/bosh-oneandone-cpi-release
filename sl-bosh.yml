@@ -1,0 +1,83 @@
+---
+name: learn-bosh
+
+
+releases:
+- name: bosh
+  url: https://bosh.io/d/github.com/cloudfoundry/bosh?v=235
+  sha1: eb9dd1834774254384f136ca6e32ddc7982d006d
+- name: bosh-oneandone-cpi
+  url: file://./x3.tgz
+
+resource_pools:
+- name: default
+  network: default
+  stemcell:
+    url: file://./bosh-stemcell-3468.11-warden-boshlite-ubuntu-trusty-go_agent.tgz
+    
+  cloud_properties:
+     Name: boshtest
+     Cores: 1
+     DiskSize: 20
+     Ram: 4
+
+networks:
+- name: default
+  type: dynamic
+  cloud_properties:
+   open-ports:
+    - {port-from: 22,
+      port-to: 22,
+      source: 0.0.0.0}
+    - {port-from: 80,
+      port-to: 80,
+      source: 0.0.0.0}
+    - {port-from: 443,
+      port-to: 443,
+      source: 0.0.0.0}
+    - {port-from: 8443,
+      port-to: 8443,
+      source: 0.0.0.0}
+compilation:
+  workers: 2
+  network: default
+
+cloud_provider:
+ template: {name: cpi, release: bosh-oneandone-cpi}
+
+cloud:
+  plugin: oneandone
+  properties:
+    oao:
+      token: c4a21f145229f0597d60b0e531cfc69f
+    registry:
+      username: admin
+      password: admin
+      port: 6901
+      host: localhost
+    agent:
+      mbus: http://127.0.0.1
+      blobstore:
+        provider: local   
+  
+
+    
+update:
+  canaries: 1
+  max_in_flight: 2
+  canary_watch_time: 1000-30000
+  update_watch_time: 1000-30000
+
+
+jobs:
+- name: oneandone_cpi
+  templates:
+  - name: oneandone_cpi
+  instances: 1
+  resource_pool: default
+  networks:
+  - name: default
+
+
+
+   

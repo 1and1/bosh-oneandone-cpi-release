@@ -1,0 +1,6 @@
+---
+final_name: bosh-oneandone-cpi
+blobstore:
+  provider: s3
+  options:
+    bucket_name: bosh-cpi-artifacts
