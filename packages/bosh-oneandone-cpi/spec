@@ -1,0 +1,6 @@
+---
+name: bosh-oneandone-cpi
+dependencies:
+  - golang
+files:
+  - bosh-oneandone-cpi/**/*

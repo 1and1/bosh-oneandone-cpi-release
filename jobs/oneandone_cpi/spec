@@ -1,0 +1,63 @@
+---
+name: oneandone_cpi
+
+packages:
+  - bosh-oneandone-cpi
+
+templates:
+  bin/cpi.erb: bin/cpi
+  bin/pre-start.erb: bin/pre-start
+  config/cpi.json.erb: config/cpi.json
+  config/registry.cacertfile.erb: config/registry.cacertfile
+  config/registry.certfile.erb: config/registry.certfile
+  config/registry.keyfile.erb: config/registry.keyfile
+
+properties:
+  oao.token:
+    description: API token
+
+
+  blobstore.provider:
+    description: Provider of the blobstore used by director and agent (dav|local|s3)
+    default: 'dav'
+  blobstore.path:
+    description: local blobstore path
+
+  blobstore.address:
+    description: Address of blobstore server used by simple blobstore plugin
+  blobstore.port:
+    description: Port of blobstore server used by simple blobstore plugin
+    default: 25250
+  blobstore.agent.user:
+    description: Username agent uses to connect to blobstore used by simple blobstore plugin
+  blobstore.agent.password:
+    description: Password agent uses to connect to blobstore used by simple blobstore plugin
+
+  registry.protocol:
+    description: Protocol to use to connect to the Registry. http or https
+    default: 'http'
+  registry.host:
+    description: Address of the Registry to connect to (required)
+  registry.port:
+    description: Port of the Registry for CPI and agent to connect to
+    default: 25777
+  registry.username:
+    description: Username to access the Registry
+  registry.password:
+    description: Password to access the Registry
+
+  ntp:
+    description: List of ntp server IPs
+    default:
+      - 169.254.169.254
+
+  agent.mbus:
+    description: "Mbus URL(https://<nats-user>:<nats-user-passwd>@<private-ip>:42222< used by deployed BOSH agents to start accepting requests."
+    
+  agent.blobstore.address:
+    description: Address for agent to connect to blobstore server used by dav blobstore plugin
+  agent.blobstore.use_ssl:
+    description: Whether the agent blobstore plugin should use SSL to connect to the blobstore server
+  agent.blobstore.ssl_verify_peer:
+    description: Whether the agent blobstore plugin should verify its peer when using SSL
+

@@ -1,0 +1,15 @@
+name: oneandone-cpi
+version: 0+dev.1
+commit_hash: non-git
+uncommitted_changes: false
+jobs:
+- name: oneandone_cpi
+  version: c2689f7ab10f8367cd5ebb39499dada6f113bad2
+  fingerprint: c2689f7ab10f8367cd5ebb39499dada6f113bad2
+  sha1: e74d053b51d79397ba8387f402a69133d407f595
+packages:
+- name: bosh-oneandone-cpi
+  version: ce7d1c00f4d9981b19af6085909d35e56f6a7492
+  fingerprint: ce7d1c00f4d9981b19af6085909d35e56f6a7492
+  sha1: cca68181daa65bfc30d9085353206a996e3070bc
+  dependencies: []

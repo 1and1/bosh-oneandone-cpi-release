@@ -1,0 +1,21 @@
+name: bosh-oneandone-cpi
+version: 0+dev.85
+commit_hash: 9d9bb89
+uncommitted_changes: true
+jobs:
+- name: oneandone_cpi
+  version: 217ca7ae327c9c4e48edb203aa1a688ac69586bf
+  fingerprint: 217ca7ae327c9c4e48edb203aa1a688ac69586bf
+  sha1: 56e2a5b35671c4c6d097d42eee53068a743dd692
+packages:
+- name: bosh-oneandone-cpi
+  version: 957ca1831d0a3155dabc9499c79518e3c0c19edb
+  fingerprint: 957ca1831d0a3155dabc9499c79518e3c0c19edb
+  sha1: 964596de3d9fd67cb623a5d2c6da632f649e9728
+  dependencies:
+  - golang
+- name: golang
+  version: 3385cfa9c36d35b7092018069821fba52530a629
+  fingerprint: 3385cfa9c36d35b7092018069821fba52530a629
+  sha1: fccd4bedbba9836a072106da59dbd725be34c745
+  dependencies: []
