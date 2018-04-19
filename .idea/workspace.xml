@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7d362c5e-3483-4b57-b8ea-4cfdaf37230c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bosh-oneandone-cpi" beforeDir="false" afterPath="$PROJECT_DIR$/src/bosh-oneandone-cpi" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,7 +16,7 @@
       <file leaf-file-name="fs_client.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/bosh-oneandone-cpi/registry/fs_client.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
+            <state relative-caret-position="761">
               <caret line="149" selection-start-line="149" selection-end-line="149" />
               <folding>
                 <element signature="e#18#245#0" expanded="true" />
@@ -238,13 +237,6 @@
               <item name="bosh-oneandone-cpi-release" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="bosh-oneandone-cpi" type="462c0819:PsiDirectoryNode" />
-              <item name="action" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bosh-oneandone-cpi-release" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bosh-oneandone-cpi-release" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bosh-oneandone-cpi" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -307,6 +299,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="GO_FMT" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../cloudfoundry/bosh-agent" />
@@ -333,16 +326,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="-4" width="1871" height="1084" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20577231" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20577231" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32889345" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32991803" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32991803" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32889345" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -364,6 +356,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_FILE_HISTORY_DETAILS" value="false" />
+    <MESSAGE value="add src folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="add src folder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -741,7 +735,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bosh-oneandone-cpi/registry/fs_client.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
+        <state relative-caret-position="761">
           <caret line="149" selection-start-line="149" selection-end-line="149" />
           <folding>
             <element signature="e#18#245#0" expanded="true" />
