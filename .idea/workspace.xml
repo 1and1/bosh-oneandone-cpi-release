@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d362c5e-3483-4b57-b8ea-4cfdaf37230c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.dev_builds/packages/bosh-oneandone-cpi/index.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.dev_builds/packages/bosh-oneandone-cpi/index.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blobs/golang/go1.8.1.darwin-amd64.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blobs/golang/go1.8.1.linux-amd64.tar.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/config/blobs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/blobs.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/final.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/final.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev_releases/bosh-oneandone-cpi/index.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dev_releases/bosh-oneandone-cpi/index.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/golang/packaging" beforeDir="false" afterPath="$PROJECT_DIR$/packages/golang/packaging" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/golang/spec" beforeDir="false" afterPath="$PROJECT_DIR$/packages/golang/spec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bosh-oneandone-cpi/action/cloud_properties.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/bosh-oneandone-cpi/action/cloud_properties.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/src/bosh-oneandone-cpi/integration/stemcell_test.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="522">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="e#21#95#0" expanded="true" />
               </folding>
@@ -76,8 +71,8 @@
       <file leaf-file-name="disk_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bosh-oneandone-cpi/integration/disk_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="107" selection-end-column="2" />
+            <state relative-caret-position="196">
+              <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
               <folding>
                 <element signature="e#21#95#0" expanded="true" />
               </folding>
@@ -89,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/src/bosh-oneandone-cpi/oneandone/stemcell/stemcell_operations.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="813">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
             </state>
           </provider>
         </entry>
@@ -118,7 +113,8 @@
       <file leaf-file-name="vm_test.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/bosh-oneandone-cpi/integration/vm_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="814">
+              <caret line="415" lean-forward="true" selection-start-line="415" selection-end-line="415" />
               <folding>
                 <element signature="e#21#144#0" expanded="true" />
               </folding>
@@ -203,7 +199,6 @@
         <option value="$PROJECT_DIR$/src/bosh-oneandone-cpi/action/concrete_factory.go" />
         <option value="$PROJECT_DIR$/src/bosh-oneandone-cpi/action/detach_disk.go" />
         <option value="$PROJECT_DIR$/src/bosh-oneandone-cpi/integration/assertions.go" />
-        <option value="$PROJECT_DIR$/src/bosh-oneandone-cpi/integration/disk_test.go" />
         <option value="$PROJECT_DIR$/src/bosh-oneandone-cpi/oneandone/disks/disk_attacher_detacher.go" />
         <option value="$PROJECT_DIR$/src/bosh-oneandone-cpi/oneandone/resource/instance.go" />
         <option value="$PROJECT_DIR$/src/bosh-oneandone-cpi/registry/client.go" />
@@ -218,6 +213,7 @@
         <option value="$PROJECT_DIR$/src/bosh-oneandone-cpi/integration/config.go" />
         <option value="$PROJECT_DIR$/src/bosh-oneandone-cpi/integration/stemcell_test.go" />
         <option value="$PROJECT_DIR$/src/bosh-oneandone-cpi/integration/integration_suite_test.go" />
+        <option value="$PROJECT_DIR$/src/bosh-oneandone-cpi/integration/disk_test.go" />
         <option value="$PROJECT_DIR$/src/bosh-oneandone-cpi/integration/vm_test.go" />
       </list>
     </option>
@@ -229,10 +225,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-46" />
-    <option name="y" value="18" />
-    <option name="width" value="1932" />
-    <option name="height" value="1027" />
+    <option name="x" value="49" />
+    <option name="y" value="-4" />
+    <option name="width" value="1871" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -369,9 +365,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="-4" width="1871" height="1084" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20577231" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2109589" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
@@ -705,7 +700,7 @@
     <entry file="file://$PROJECT_DIR$/src/bosh-oneandone-cpi/oneandone/stemcell/stemcell_operations.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="813">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
     </entry>
@@ -733,7 +728,7 @@
     <entry file="file://$PROJECT_DIR$/src/bosh-oneandone-cpi/integration/stemcell_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="e#21#95#0" expanded="true" />
           </folding>
@@ -752,8 +747,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bosh-oneandone-cpi/integration/disk_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="107" selection-end-column="2" />
+        <state relative-caret-position="196">
+          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
           <folding>
             <element signature="e#21#95#0" expanded="true" />
           </folding>
@@ -762,7 +757,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bosh-oneandone-cpi/integration/vm_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="814">
+          <caret line="415" lean-forward="true" selection-start-line="415" selection-end-line="415" />
           <folding>
             <element signature="e#21#144#0" expanded="true" />
           </folding>

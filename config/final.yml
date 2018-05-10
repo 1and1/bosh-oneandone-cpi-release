@@ -3,4 +3,8 @@ final_name: bosh-oneandone-cpi
 blobstore:
   provider: s3
   options:
-    bucket_name: bosh-oneandone-cpi-artifacts
+    bucket_name: oneandone-bosh
+    endpoint: https://s3-de-central.profitbricks.com
+    host: s3-de-central.profitbricks.com:443
+    region: de
+
